@@ -17,7 +17,7 @@ function submitForm(event) {
   };
 
   // Send data to SheetDB with a POST request
-  fetch("https://sheetdb.io/api/v1/ut2s9fhh8b35f", {
+  fetch("https://sheetdb.io/api/v1/cpj8vb165akj6", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data)
